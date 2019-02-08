@@ -1,0 +1,76 @@
+
+@media screen and (max-width: 992px)
+  .wrapper
+    .nav-mobile-btn
+      display: block !important
+    .content-right
+      padding: 0
+    .nav
+      display: none
+      background-color: $divider
+      .nav-wrapper
+        padding: 25px 0
+        .logo-top
+          margin-bottom: 15%
+          width: 50px
+          height: 50px
+        .menu-column
+          .menu-item
+            a
+              .menu-icon-wrapper
+                width: 25px
+    .contacts-bottom-block
+      flex-direction: column
+      align-items: flex-start
+      .contact-form
+        margin: 0 auto $normal auto
+      .contact-list-block
+        margin: 0 auto
+
+
+@media screen and (max-width: 768px)
+  .contact-form
+    width: 100%
+    margin-bottom: $normal
+    .contact-btn-bottom
+      width: 100% !important
+  .progress-block
+    .progress-list
+      .progress-item
+        .progress-container, .progress-item-header
+          width: 100% !important
+  .portfolio-grid
+    flex-direction: column
+    .grid
+      margin: 0 0 $verySmall 0 !important
+      display: flex
+      justify-content: center
+      width: 100%
+
+
+@media screen and (max-width: 576px)
+  .wrapper
+    height: 100%
+    .content-right
+      .content-right-wrapper
+        padding: 25px 25px 0 25px
+        .tag-text-top, .tag-text-bottom
+          .tag-content-with-spacing
+            margin-left: 20%
+        .content
+          .content-center
+            margin-left: 0
+            text-align: center
+            .tag-content
+              text-align: left
+            .text-center
+              .tag-content-item
+                text-align: left
+                padding-left: 43%
+                display: block !important
+        .footer
+          padding-bottom: 25px !important
+          .social-row
+            .social-list
+              margin-top: $small
+

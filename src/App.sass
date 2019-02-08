@@ -1,0 +1,75 @@
+@import 'styles/const'
+// @import 'styles/fonts'
+@import 'styles/media'
+@import 'styles/_mixins/font-face'
+
+
+html
+  height: 100vh
+body
+  height: 100vh
+  min-height: 100%
+
+body
+  background: $bg url(img/bg.png) no-repeat center center fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  font-size: 17px
+  min-width: 320px
+  line-height: 1.65em
+  font-family: $primary-font
+  color: #fff
+  height: 100vh
+  position: relative
+  input, textarea
+    outline: none
+    &:focus:required:invalid
+      border-color: red
+    &:required:valid
+      border-color: green
+
+.img-responsive
+  display: block
+  max-width: 100%
+  height: auto
+  &.img-width
+    width: 100%
+
+// Mobile btn style
+
+.nav-mobile-btn
+  display: none
+  background-color: transparent
+  border: none
+  cursor: pointer
+  outline: none
+  svg
+    display: flex
+    align-items: center
+    width: 25px
+    margin: 0 0 0 auto
+    path
+      fill: $orange
+
+// Center content style
+
+.content-without-padding
+  margin: 0 !important
+  .title-top
+    text-align: center
+  .description-text-top
+    text-align: center
+    margin-bottom: $small
+  .contacts-bottom-block
+    padding-top: $small
+    justify-content: center
+  .progress-block
+    .progress-list
+      .progress-item
+        .progress-item-header
+          margin: 0 auto
+          width: 50%
+        .progress-container
+          margin: 0 auto

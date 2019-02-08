@@ -1,0 +1,60 @@
+@import '../../styles/_const'
+
+.nav
+  border-right: 1px solid $divider
+  position: fixed
+  z-index: 1
+  top: 0
+  left: 0
+  width: 150px
+  height: 100%
+  transition: all 340ms ease-in-out
+  margin: 0 auto
+  .nav-wrapper
+    display: flex
+    flex-direction: column
+    align-self: center
+    align-items: center
+    height: 100%
+    .logo-top
+      width: 100px
+      height: 100px
+      margin-top: 37px
+      margin-bottom: auto
+    .menu-column
+      margin-bottom: auto
+      display: flex
+      flex-direction: column
+      .menu-item
+        margin: 15px 0
+        &:hover
+          a
+            .menu-icon-wrapper
+              svg
+                path
+                  fill: $active
+          span
+            color: $active
+        a
+          text-decoration: none
+          color: $text
+          display: flex
+          justify-content: center
+          align-items: center
+          flex-direction: column
+          text-align: center
+          .menu-icon-wrapper
+            width: 32px
+            svg
+              path
+                fill: $text
+          span
+            font-family: $primary-font
+      .active-menu-item
+        a
+          .menu-icon-wrapper
+            svg
+              path
+                fill: $active
+          span
+            color: $active

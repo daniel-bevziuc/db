@@ -1,0 +1,94 @@
+@import '../../styles/_const'
+
+.portfolio-grid
+  display: flex
+  justify-content: center
+  .grid
+    margin: 0px
+  .grid figure
+    position: relative
+    overflow: hidden
+    max-width: 325px
+    max-height: 195px
+    width: 100%
+    // background-color: $divider
+    background-image: linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, 2))
+    text-align: center
+    cursor: pointer
+    border-radius: 5px
+    img
+      position: relative
+      display: block
+      min-height: 100%
+      max-width: 100%
+      // opacity: 0.1
+    figcaption
+      // padding: 2em
+      color: #ffffff
+      text-transform: uppercase
+      font-size: 1.25em
+      -webkit-backface-visibility: hidden
+      backface-visibility: hidden
+      &::before, &::after
+        pointer-events: none
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+    h2
+      color: $orange
+      font-weight: bold
+      margin: 0
+      text-transform: capitalize
+      font-size: $normalSize
+    p
+      margin: 0
+      letter-spacing: 1px
+      font-size: 57.5%
+  figure.effect-lily
+    margin: 12px
+    img
+      max-width: none
+      width: -webkit-calc(100% + 50px)
+      width: calc(100% + 50px)
+      opacity: 0.7
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s
+      transition: opacity 0.35s, transform 0.35s
+      -webkit-transform: translate3d(-15px, 0, 0)
+      transform: translate3d(-15px, 0, 0)
+    figcaption
+      text-align: left
+      > div
+        position: absolute
+        bottom: 0
+        left: 0
+        padding-left: $small
+        width: 100%
+        height: 50%
+    h2, p
+      -webkit-transform: translate3d(-15px, -15px, 0)
+      transform: translate3d(-15px, -15px, 0)
+    h2
+      -webkit-transition: -webkit-transform 0.35s
+      transition: transform 0.35s
+    p
+      color: rgba(255, 255, 255, 0.8)
+      opacity: 0
+      -webkit-transition: opacity 0.2s, -webkit-transform 0.35s
+      transition: opacity 0.2s, transform 0.35s
+    &:hover
+      img, p
+        opacity: 1
+      img, h2
+        -webkit-transform: translate3d(0, 0, 0)
+        transform: translate3d(0, 0, 0)
+        // font-size: 28px
+        // transition: 0.4s ease-in-out
+      p
+        -webkit-transform: translate3d(0, 0, 0)
+        transform: translate3d(0, 0, 0)
+        -webkit-transition-delay: 0.05s
+        transition-delay: 0.05s
+        -webkit-transition-duration: 0.35s
+        transition-duration: 0.35s

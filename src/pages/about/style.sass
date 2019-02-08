@@ -1,0 +1,39 @@
+@import '../../styles/_const'
+
+.contacts-bottom-block
+  display: flex
+  align-items: center
+  .contact-form
+    display: flex
+    flex-direction: column
+    width: 25%
+    .contact-input-item, .contact-textarea-item
+      background-color: transparent
+      border: none
+      border-bottom: 1px solid $orange
+      color: #fff
+      margin-bottom: 15px
+      &::placeholder
+        color: #fff
+        text-align: center
+        font-size: 14px
+  .contact-list-block
+    margin-left: 15%
+    .contact-list
+      margin-bottom: 0
+      display: flex
+      padding-left: 0
+      flex-direction: column
+      .contact-list-item
+        display: flex
+        align-items: center
+        margin-bottom: $small
+        svg
+          width: $small
+          path
+            fill: orange
+      .contact-text-left
+        color: #fff
+        margin: 0 0 0 $verySmall
+.description
+  text-align: center
