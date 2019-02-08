@@ -30,8 +30,9 @@ class About extends Component {
             </h1>
             <p className="description-text-top">
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
-              <span>
-              My primary goal is to apply my technical expertise all throughout the full frontend life cycle to ensure production and delivery of products and services that meet client specifications.<br /> Along with a competent frontend developing team, and with strong personal knowledge, skills, and experience in frontend,<br /> I am positive that this goal can be achieved. My experience as junior frontend developer enhanced my abilities in designing, implementing, testing, and upgrading frontend.<br /> One of my objectives is to keep updated with the latest IT trends and technologies. <br />I am confident that if given the opportunity.</span>
+              <span> I prefer to code, and focus on finding new intuitive ways to display information.<br />
+              When designing, I enjoy creating simplistic sites and products that are pleasing to the eye<br />
+              I love learning new frameworks and design styles, and I push myself to stay up to date on all new web technologies.</span>
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
             </p>
             <div className="contacts-bottom-block">
