@@ -36,7 +36,7 @@ class About extends Component {
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
             </p>
             <div className="contacts-bottom-block">
-              <div className="contact-form">
+              {/* <div className="contact-form">
                 <input className="contact-input-item" placeholder="User Name" type="text" />
                 <input className="contact-input-item" placeholder="Your email" type="email" />
                 <textarea className="contact-textarea-item" placeholder="Write your message here.." name="user-message"
@@ -44,7 +44,7 @@ class About extends Component {
                 <button type="button" className="btn btn-primary orange-button-bottom button-link" data-toggle="button" aria-pressed="false"
                   autoComplete="off">
                   Send</button>
-              </div>
+              </div> */}
               <div className="contact-list-block">
                 <ul className="contact-list">
                   <li className="contact-list-item">

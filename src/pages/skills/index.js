@@ -30,8 +30,7 @@ class Skills extends Component {
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
               <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
-                eiusmod tempor incididunt ut labore et dolore magna.
-          </span>
+                eiusmod tempor incididunt ut labore et dolore magna.</span>
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
             </p>
             <div className="progress-block">

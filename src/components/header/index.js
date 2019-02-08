@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import mainLogo from './img/logo.svg';
 import './style.sass';
@@ -9,6 +9,7 @@ import './style.sass';
 class Header extends Component {
   render() {
     return (
+      <Fragment>
         <div className="nav">
           <div className="nav-wrapper">
             <Link to='/' className="logo-top">
@@ -70,7 +71,7 @@ class Header extends Component {
             </div>
           </div>
         </div>
-      // </div>
+      </Fragment>
     );
   }
 }
