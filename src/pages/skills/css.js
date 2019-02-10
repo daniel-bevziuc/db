@@ -38,7 +38,7 @@ class CssProgress extends Component {
             {
               active: {
                 symbol: this.state.percent + '%',
-                // trailColor: 'yellow',
+                // trailColor: '#303249',
                 color: '#F9BB3B'
               },
             }
