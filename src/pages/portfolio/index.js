@@ -31,7 +31,7 @@ class Portfolio extends Component {
             </p>
           </div>
           <div className="portfolio-grid">
-            <a href='https://kodiri.github.io/8-days-a-week/' target="_blank">
+            <a href='https://kodiri.github.io/8-days-a-week/' target="_blank"  rel='noreferrer noopener'>
               <div className="grid">
                 <figure className="effect-lily">
                   <img src={womanImg} alt="daniel-portfolio-item" />
@@ -44,7 +44,7 @@ class Portfolio extends Component {
                 </figure>
               </div>
             </a>
-            <a href='https://daniel-bevziuc.github.io/carton-plant/' target='_blank'>
+            <a href='https://daniel-bevziuc.github.io/carton-plant/' target='_blank' rel='noreferrer noopener'>
               <div className="grid">
                 <figure className="effect-lily">
                   <img src={cartonImg} alt="daniel-portfolio-item" />
@@ -59,7 +59,7 @@ class Portfolio extends Component {
             </a>
           </div>
           <div className="portfolio-grid">
-            <a href='https://daniel-bevziuc.github.io/construction-part.github.io/' target='_blank'>
+            <a href='https://daniel-bevziuc.github.io/construction-part.github.io/' target='_blank' rel='noreferrer noopener'>
               <div className="grid">
                 <figure className="effect-lily">
                   <img src={partImg} alt="daniel-portfolio-item" />
@@ -72,7 +72,7 @@ class Portfolio extends Component {
                 </figure>
               </div>
             </a>
-            <a href='https://daniel-bevziuc.github.io/auto-agent-app/' target='_blank'>
+            <a href='https://daniel-bevziuc.github.io/auto-agent-app/' target='_blank' rel='noreferrer noopener'>
               <div className="grid">
                 <figure className="effect-lily">
                   <img src={teslaImg} alt="daniel-portfolio-item" />
