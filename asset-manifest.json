@@ -1,9 +1,10 @@
 {
-  "main.css": "/db/static/css/main.3c8b1cd2.chunk.css",
-  "main.js": "/db/static/js/main.a7402f6f.chunk.js",
-  "main.js.map": "/db/static/js/main.a7402f6f.chunk.js.map",
-  "static/js/1.c2759f8a.chunk.js": "/db/static/js/1.c2759f8a.chunk.js",
-  "static/js/1.c2759f8a.chunk.js.map": "/db/static/js/1.c2759f8a.chunk.js.map",
+  "main.css": "/db/static/css/main.88f2bed9.chunk.css",
+  "main.js": "/db/static/js/main.86f2f1fd.chunk.js",
+  "main.js.map": "/db/static/js/main.86f2f1fd.chunk.js.map",
+  "static/css/1.e2349720.chunk.css": "/db/static/css/1.e2349720.chunk.css",
+  "static/js/1.9cbf4700.chunk.js": "/db/static/js/1.9cbf4700.chunk.js",
+  "static/js/1.9cbf4700.chunk.js.map": "/db/static/js/1.9cbf4700.chunk.js.map",
   "runtime~main.js": "/db/static/js/runtime~main.383872b6.js",
   "runtime~main.js.map": "/db/static/js/runtime~main.383872b6.js.map",
   "static/media/logo.svg": "/db/static/media/logo.72123fc8.svg",
@@ -12,8 +13,9 @@
   "static/media/tech-woman.png": "/db/static/media/tech-woman.59692f45.png",
   "static/media/App.sass": "/db/static/media/bg.12e65b4f.png",
   "static/media/tesla.png": "/db/static/media/tesla.2509ee19.png",
-  "static/css/main.3c8b1cd2.chunk.css.map": "/db/static/css/main.3c8b1cd2.chunk.css.map",
+  "static/css/main.88f2bed9.chunk.css.map": "/db/static/css/main.88f2bed9.chunk.css.map",
+  "static/css/1.e2349720.chunk.css.map": "/db/static/css/1.e2349720.chunk.css.map",
   "index.html": "/db/index.html",
-  "precache-manifest.b4f36f9f78ce9da7d6fff97843813f17.js": "/db/precache-manifest.b4f36f9f78ce9da7d6fff97843813f17.js",
+  "precache-manifest.282c61c3db46c43fbdee4a1a7d122dee.js": "/db/precache-manifest.282c61c3db46c43fbdee4a1a7d122dee.js",
   "service-worker.js": "/db/service-worker.js"
 }

@@ -4,12 +4,16 @@ self.__precacheManifest = [
     "url": "/db/static/media/tesla.2509ee19.png"
   },
   {
-    "revision": "a7402f6f5e5a378990d1",
-    "url": "/db/static/css/main.3c8b1cd2.chunk.css"
+    "revision": "86f2f1fdcd3f4203f26c",
+    "url": "/db/static/css/main.88f2bed9.chunk.css"
   },
   {
-    "revision": "c2759f8a13f0a72e69d3",
-    "url": "/db/static/js/1.c2759f8a.chunk.js"
+    "revision": "12e65b4f8aed95db5f57dca42588bb54",
+    "url": "/db/static/media/bg.12e65b4f.png"
+  },
+  {
+    "revision": "9cbf470058b044625600",
+    "url": "/db/static/js/1.9cbf4700.chunk.js"
   },
   {
     "revision": "383872b62fceb0a97fae",
@@ -20,8 +24,8 @@ self.__precacheManifest = [
     "url": "/db/static/media/logo.72123fc8.svg"
   },
   {
-    "revision": "a7402f6f5e5a378990d1",
-    "url": "/db/static/js/main.a7402f6f.chunk.js"
+    "revision": "86f2f1fdcd3f4203f26c",
+    "url": "/db/static/js/main.86f2f1fd.chunk.js"
   },
   {
     "revision": "50a95f56827ec91dedc740efa262ce23",
@@ -36,11 +40,11 @@ self.__precacheManifest = [
     "url": "/db/static/media/tech-woman.59692f45.png"
   },
   {
-    "revision": "12e65b4f8aed95db5f57dca42588bb54",
-    "url": "/db/static/media/bg.12e65b4f.png"
+    "revision": "9cbf470058b044625600",
+    "url": "/db/static/css/1.e2349720.chunk.css"
   },
   {
-    "revision": "a59965cc435188650ea8ea031a9b3a73",
+    "revision": "88a4509f6c8bc976a814b16ab6e54706",
     "url": "/db/index.html"
   }
 ];
