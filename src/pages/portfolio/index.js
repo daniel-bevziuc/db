@@ -26,57 +26,65 @@ class Portfolio extends Component {
             <p className="description-text-top">
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
               <span>
-              Producing high quality responsive web apps and exceptional UI and UX experience.</span>
+                Producing high quality responsive web apps and exceptional UI and UX experience.</span>
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
             </p>
           </div>
           <div className="portfolio-grid">
-            <div className="grid">
-              <figure className="effect-lily">
-                <img src={womanImg} alt="daniel-portfolio-item" />
-                <figcaption>
-                  <div>
-                    <h2>View Project</h2>
-                    <p>This App I buil on Kodiri Boot Camp</p>
-                  </div>
-                </figcaption>
-              </figure>
-            </div>
-            <div className="grid">
-              <figure className="effect-lily">
-                <img src={cartonImg} alt="daniel-portfolio-item" />
-                <figcaption>
-                  <div>
-                    <h2>View Project</h2>
-                    <p>I build that App for a Cardboard Plant</p>
-                  </div>
-                </figcaption>
-              </figure>
-            </div>
+            <a href='https://kodiri.github.io/8-days-a-week/' target="_blank">
+              <div className="grid">
+                <figure className="effect-lily">
+                  <img src={womanImg} alt="daniel-portfolio-item" />
+                  <figcaption>
+                    <div>
+                      <h2>View Project</h2>
+                      <p>This App I buil on Kodiri Boot Camp</p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </a>
+            <a href='https://daniel-bevziuc.github.io/carton-plant/' target='_blank'>
+              <div className="grid">
+                <figure className="effect-lily">
+                  <img src={cartonImg} alt="daniel-portfolio-item" />
+                  <figcaption>
+                    <div>
+                      <h2>View Project</h2>
+                      <p>I build that App for a Cardboard Plant</p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </a>
           </div>
           <div className="portfolio-grid">
-            <div className="grid">
-              <figure className="effect-lily">
-                <img src={partImg} alt="daniel-portfolio-item" />
-                <figcaption>
-                  <div>
-                    <h2>View Project</h2>
-                    <p>I build that App for a Building Materials Company</p>
-                  </div>
-                </figcaption>
-              </figure>
-            </div>
-            <div className="grid">
-              <figure className="effect-lily">
-                <img src={teslaImg} alt="daniel-portfolio-item" />
-                <figcaption>
-                  <div>
-                    <h2>View Project</h2>
-                    <p>I build that App for Auto Agent</p>
-                  </div>
-                </figcaption>
-              </figure>
-            </div>
+            <a href='https://daniel-bevziuc.github.io/construction-part.github.io/' target='_blank'>
+              <div className="grid">
+                <figure className="effect-lily">
+                  <img src={partImg} alt="daniel-portfolio-item" />
+                  <figcaption>
+                    <div>
+                      <h2>View Project</h2>
+                      <p>I build that App for a Building Materials Company</p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </a>
+            <a href='https://daniel-bevziuc.github.io/auto-agent-app/' target='_blank'>
+              <div className="grid">
+                <figure className="effect-lily">
+                  <img src={teslaImg} alt="daniel-portfolio-item" />
+                  <figcaption>
+                    <div>
+                      <h2>View Project</h2>
+                      <p>I build that App for Auto Agent</p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </a>
           </div>
         </div>
         <div className="tag-text-bottom">
