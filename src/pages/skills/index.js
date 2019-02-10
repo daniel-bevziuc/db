@@ -1,4 +1,8 @@
 import React, { Component, Fragment } from 'react';
+import HtmlProgrres from './html';
+import CssProgress from './css';
+import JsProgress from './jsProgress';
+import ReaProgress from './reaProg';
 import './style.sass';
 
 
@@ -21,8 +25,8 @@ class Skills extends Component {
             <p className="description-text-top">
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
-                eiusmod tempor incididunt ut labore et dolore magna.</span>
+                The main area of my experience is front end development, <br />
+                HTML, CSS, JS (ES6), building small and medium web apps with React JS.</span>
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
             </p>
             <div className="progress-block">
@@ -38,7 +42,9 @@ class Skills extends Component {
                     <p className="skill-item-title">HTML5</p>
                   </div>
                   <div className="progress-container">
-                    <div className="progress-bar" title="95%"></div>
+                    <div className="progress-bar" title="95%">
+                      <HtmlProgrres />
+                    </div>
                   </div>
                 </li>
                 <li className="progress-item">
@@ -52,7 +58,9 @@ class Skills extends Component {
                     <p className="skill-item-title">CSS3</p>
                   </div>
                   <div className="progress-container">
-                    <div className="progress-bar" title="85%"></div>
+                    <div className="progress-bar" title="85%">
+                      <CssProgress />
+                    </div>
                   </div>
                 </li>
                 <li className="progress-item">
@@ -66,7 +74,9 @@ class Skills extends Component {
                     <p className="skill-item-title">JavaScript</p>
                   </div>
                   <div className="progress-container">
-                    <div className="progress-bar" title="100%"></div>
+                    <div className="progress-bar" title="100%">
+                      <JsProgress />
+                    </div>
                   </div>
                 </li>
                 <li className="progress-item">
@@ -80,7 +90,9 @@ class Skills extends Component {
                     <p className="skill-item-title">ReactJs</p>
                   </div>
                   <div className="progress-container">
-                    <div className="progress-bar" title="64%"></div>
+                    <div className="progress-bar" title="64%">
+                      <ReaProgress />
+                    </div>
                   </div>
                 </li>
               </ul>

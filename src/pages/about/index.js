@@ -17,14 +17,16 @@ class About extends Component {
           <div className="content-center content-without-padding">
             <h1 className="title-top">
               <span className="tag-content tag-content-item">&#60;h1&#62;</span>
-              <span className="description-center">About Me & Contacts</span>
+              <span className="description-center">Contacts</span>
               <span className="tag-content tag-content-item">&#60;/h1&#62;</span>
             </h1>
             <p className="description-text-top">
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
               <span> I prefer to code, and focus on finding new intuitive ways to display information.<br />
-              When designing, I enjoy creating simplistic sites and products that are pleasing to the eye<br />
-              I love learning new frameworks and design styles, and I push myself to stay up to date on all new web technologies.</span>
+              When designing, I enjoy creating simplistic sites <br />
+              and products that are pleasing to the eye<br />
+              I love learning new frameworks and design styles,<br />
+              and I push myself to stay up to date on all new web technologies.</span>
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
             </p>
             <div className="contacts-bottom-block">

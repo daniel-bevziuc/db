@@ -13,7 +13,7 @@ class Footer extends Component {
           <div className="social-row">
             <ul className="social-list">
               <li className="social-item">
-                <a href="https://www.linkedin.com">
+                <a href="https://github.com/daniel-bevziuc" target="_blank">
                   <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
                     className="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 496 512">
@@ -23,7 +23,7 @@ class Footer extends Component {
                 </a>
               </li>
               <li className="social-item">
-                <a href="https://github.com/">
+                <a href="https://www.linkedin.com/in/daniel-bevziuc-899780171/" target="_blank">
                   <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
                     className="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 448 512">

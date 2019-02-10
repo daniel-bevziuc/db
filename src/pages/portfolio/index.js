@@ -26,8 +26,7 @@ class Portfolio extends Component {
             <p className="description-text-top">
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
-                eiusmod tempor incididunt ut labore et dolore magna.</span>
+              Producing high quality responsive web apps and exceptional UI and UX experience.</span>
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
             </p>
           </div>
