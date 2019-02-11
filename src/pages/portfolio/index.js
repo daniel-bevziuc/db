@@ -51,7 +51,7 @@ class Portfolio extends Component {
                   <figcaption>
                     <div>
                       <h2>View Project</h2>
-                      <p>I build that App for a Cardboard Plant</p>
+                      <p>I build that App for a Cardboard <br />Plant</p>
                     </div>
                   </figcaption>
                 </figure>

@@ -22,7 +22,7 @@ class Home extends Component {
               src={logo} alt="" />aniel, <br /> Front End Developer.</span>
               <span className="tag-content tag-content-item">&#60;/h1&#62;</span></h1>
             <h2 className="bottom-description">UI Design Lover / ReactJS / NodeJS </h2>
-            <Link to='/about' className="btn btn-primary orange-button-bottom orange-button-link">Contact me</Link>
+            <Link to='/contact' className="btn btn-primary orange-button-bottom orange-button-link">Contact me</Link>
           </div>
         </div>
         <div className="tag-text-bottom">
