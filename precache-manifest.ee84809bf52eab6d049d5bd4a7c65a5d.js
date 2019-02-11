@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/db/static/media/tesla.2509ee19.png"
   },
   {
-    "revision": "88c9cafd0b3f78da6bb9",
+    "revision": "dc5408f7f59d9142d42a",
     "url": "/db/static/css/main.0c6256d6.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/db/static/media/logo.72123fc8.svg"
   },
   {
-    "revision": "88c9cafd0b3f78da6bb9",
-    "url": "/db/static/js/main.88c9cafd.chunk.js"
+    "revision": "dc5408f7f59d9142d42a",
+    "url": "/db/static/js/main.dc5408f7.chunk.js"
   },
   {
     "revision": "50a95f56827ec91dedc740efa262ce23",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/db/static/css/1.e2349720.chunk.css"
   },
   {
-    "revision": "092dca4b6b27ca217810fb00cf822aea",
+    "revision": "0da42014a7badb337a42cc5b6be17853",
     "url": "/db/index.html"
   }
 ];
