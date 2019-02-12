@@ -1,7 +1,7 @@
 {
   "main.css": "/db/static/css/main.0c6256d6.chunk.css",
-  "main.js": "/db/static/js/main.dc5408f7.chunk.js",
-  "main.js.map": "/db/static/js/main.dc5408f7.chunk.js.map",
+  "main.js": "/db/static/js/main.8ef5873a.chunk.js",
+  "main.js.map": "/db/static/js/main.8ef5873a.chunk.js.map",
   "static/css/1.e2349720.chunk.css": "/db/static/css/1.e2349720.chunk.css",
   "static/js/1.9cbf4700.chunk.js": "/db/static/js/1.9cbf4700.chunk.js",
   "static/js/1.9cbf4700.chunk.js.map": "/db/static/js/1.9cbf4700.chunk.js.map",
@@ -13,9 +13,9 @@
   "static/media/tech-woman.png": "/db/static/media/tech-woman.59692f45.png",
   "static/media/App.sass": "/db/static/media/bg.12e65b4f.png",
   "static/media/tesla.png": "/db/static/media/tesla.2509ee19.png",
-  "static/css/main.0c6256d6.chunk.css.map": "/db/static/css/main.0c6256d6.chunk.css.map",
   "static/css/1.e2349720.chunk.css.map": "/db/static/css/1.e2349720.chunk.css.map",
+  "static/css/main.0c6256d6.chunk.css.map": "/db/static/css/main.0c6256d6.chunk.css.map",
   "index.html": "/db/index.html",
-  "precache-manifest.ee84809bf52eab6d049d5bd4a7c65a5d.js": "/db/precache-manifest.ee84809bf52eab6d049d5bd4a7c65a5d.js",
+  "precache-manifest.da0bc2eef4850d5d8985b1e5f2fc2333.js": "/db/precache-manifest.da0bc2eef4850d5d8985b1e5f2fc2333.js",
   "service-worker.js": "/db/service-worker.js"
 }
