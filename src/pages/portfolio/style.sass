@@ -12,7 +12,7 @@
     max-height: 195px
     width: 100%
     background-color: $divider
-    background-image: linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, 2))
+    background-image: linear-gradient(rgba(0, 0, 0, 6), rgba(0, 0, 0, 6))
     text-align: center
     cursor: pointer
     border-radius: 5px
@@ -40,7 +40,7 @@
       font-weight: bold
       margin: 0
       text-transform: capitalize
-      font-size: $normalSize
+      font-size: 14px
     p
       margin: 0
       letter-spacing: 1px
@@ -66,22 +66,33 @@
         width: 100%
         height: 50%
     h2, p
-      -webkit-transform: translate3d(-15px, -15px, 0)
-      transform: translate3d(-15px, -15px, 0)
+      -webkit-transform: translate3d(-5px, -25px, 0)
+      transform: translate3d(-5px, -25px, 0)
     h2
       -webkit-transition: -webkit-transform 0.35s
       transition: transform 0.35s
+      transition: transform 0.35s
+      border: 1px solid $orange
+      cursor: pointer
+      border-radius: 30px
+      background: transparent
+      width: 42%
+      text-align: center
+      padding: 2px
     p
       color: rgba(255, 255, 255, 0.8)
       opacity: 0
       -webkit-transition: opacity 0.2s, -webkit-transform 0.35s
       transition: opacity 0.2s, transform 0.35s
     &:hover
+      h2, .portfolio-text
+        color: $default
+        background-color: orange
       img, p
         opacity: 1
-      img, h2
-        -webkit-transform: translate3d(0, 0, 0)
-        transform: translate3d(0, 0, 0)
+      h2
+        -webkit-transform: translate3d(20px, 0, 0)
+        transform: translate3d(20px, 0, 0)
       p
         -webkit-transform: translate3d(0, 0, 0)
         transform: translate3d(0, 0, 0)

@@ -25,7 +25,7 @@ class Portfolio extends Component {
             <p className="description-text-top">
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
               <span>
-                Producing high quality responsive web apps and exceptional UI and UX experience.</span>
+                Producing high quality responsive web apps and exceptional UI and UX</span>
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
             </p>
           </div>
@@ -36,8 +36,8 @@ class Portfolio extends Component {
                   <img src={womanImg} alt="daniel-portfolio-item" />
                   <figcaption>
                     <div>
-                      <h2>View Project</h2>
-                      <p>This App I buil on Kodiri Boot Camp</p>
+                      <h2 className='portfolio-text' >View Project</h2>
+                      {/* <p>This App I buil on Kodiri Boot Camp</p> */}
                     </div>
                   </figcaption>
                 </figure>
@@ -49,8 +49,8 @@ class Portfolio extends Component {
                   <img src={cartonImg} alt="daniel-portfolio-item" />
                   <figcaption>
                     <div>
-                      <h2>View Project</h2>
-                      <p>I build that App for a Cardboard <br />Plant</p>
+                      <h2 className='portfolio-text'>View Project</h2>
+                      {/* <p>I build that App for a Cardboard <br />Plant</p> */}
                     </div>
                   </figcaption>
                 </figure>
@@ -64,8 +64,8 @@ class Portfolio extends Component {
                   <img src={partImg} alt="daniel-portfolio-item" />
                   <figcaption>
                     <div>
-                      <h2>View Project</h2>
-                      <p>I build that App for a Building Materials Company</p>
+                      <h2 className='portfolio-text'>View Project</h2>
+                      {/* <p>I build that App for a Building Materials Company</p> */}
                     </div>
                   </figcaption>
                 </figure>
@@ -77,8 +77,8 @@ class Portfolio extends Component {
                   <img src={teslaImg} alt="daniel-portfolio-item" />
                   <figcaption>
                     <div>
-                      <h2>View Project</h2>
-                      <p>I build that App for Auto Agent</p>
+                      <h2 className='portfolio-text'>View Project</h2>
+                      {/* <p>I build that App for Auto Agent</p> */}
                     </div>
                   </figcaption>
                 </figure>
