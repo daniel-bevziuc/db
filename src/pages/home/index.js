@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import './style.sass';
+import TopTags from '../../components/topTags/index';
+import BottomTags from '../../components/bottomTags/index';
 import logo from './img/logo.svg';
 
 
@@ -11,10 +13,7 @@ class Home extends Component {
   render() {
     return (
       <Fragment>
-        <div className="tag-text-top">
-          <span className="tag-content">&#60;html&#62;</span>
-          <span className="tag-content tag-content-with-spacing">&#60;body&#62;</span>
-        </div>
+        <TopTags />
         <div className="content">
           <div className="content-center">
             <span className="tag-content tag-content-item">&#60;h1&#62;</span>
@@ -22,13 +21,10 @@ class Home extends Component {
               src={logo} alt="" />aniel, <br /> Front End Developer.</span>
               <span className="tag-content tag-content-item">&#60;/h1&#62;</span></h1>
             <h2 className="bottom-description">UI Design Lover / ReactJS / NodeJS </h2>
-            <Link to='/contact' className="btn btn-primary orange-button-bottom orange-button-link">Contact me</Link>
+            <Link to='/about' className="btn btn-primary orange-button-bottom orange-button-link">Contact me</Link>
           </div>
         </div>
-        <div className="tag-text-bottom">
-          <span className="tag-content tag-content-with-spacing">&#60;/body&#62;</span>
-          <span className="tag-content">&#60;/html&#62;</span>
-        </div>
+        <BottomTags />
       </Fragment>
     );
   }

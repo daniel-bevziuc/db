@@ -4,6 +4,8 @@ import cartonImg from './img/carton.png';
 import partImg from './img/part.png';
 import womanImg from './img/tech-woman.png';
 import './style.sass';
+import TopTags from '../../components/topTags/index';
+import BottomTags from '../../components/bottomTags/index';
 
 
 
@@ -12,10 +14,7 @@ class Portfolio extends Component {
   render() {
     return (
       <Fragment>
-        <div className="tag-text-top">
-          <span className="tag-content">&#60;html&#62;</span>
-          <span className="tag-content tag-content-with-spacing">&#60;body&#62;</span>
-        </div>
+       <TopTags />
         <div className="content">
           <div className="content-center content-without-padding">
             <h1 className="title-top">
@@ -87,10 +86,7 @@ class Portfolio extends Component {
             </a>
           </div>
         </div>
-        <div className="tag-text-bottom">
-          <span className="tag-content tag-content-with-spacing">&#60;/body&#62;</span>
-          <span className="tag-content">&#60;/html&#62;</span>
-        </div>
+       <BottomTags  />
       </Fragment>
     );
   }

@@ -23,12 +23,6 @@ body
   color: #fff
   height: 100vh
   position: relative
-  input, textarea
-    outline: none
-    &:focus:required:invalid
-      border-color: red
-    &:required:valid
-      border-color: green
 
 .img-responsive
   display: block
@@ -36,24 +30,6 @@ body
   height: auto
   &.img-width
     width: 100%
-
-// Mobile btn style
-
-.nav-mobile-btn
-  display: none
-  background-color: transparent
-  border: none
-  cursor: pointer
-  outline: none
-  svg
-    display: flex
-    align-items: center
-    width: 25px
-    margin: 0 0 0 auto
-    path
-      fill: $orange
-
-// Center content style
 
 .content-without-padding
   margin: 0 !important
@@ -74,19 +50,6 @@ body
         .progress-container
           margin: 0 auto
 
-
-
-
-.tag-content
-  font-weight: 400
-  font-size: 1.5rem
-  color: $tag
-  font-family: $tertiary-font
-  display: block
-
-.tag-content-with-spacing
-  margin-left: 4%
-
 .orange-button-bottom
   display: inline-block
   margin-top: $small
@@ -102,64 +65,3 @@ body
 
 .orange-button-link
   text-decoration: none !important
-
-
-
-.nav
-  border-right: 1px solid $divider
-  position: fixed
-  z-index: 1
-  top: 0
-  left: 0
-  width: 150px
-  height: 100%
-  transition: all 340ms ease-in-out
-  margin: 0 auto
-  .nav-wrapper
-    display: flex
-    flex-direction: column
-    align-self: center
-    align-items: center
-    height: 100%
-    .logo-top
-      width: 100px
-      height: 100px
-      margin-top: 37px
-      margin-bottom: auto
-    .menu-column
-      margin-bottom: auto
-      display: flex
-      flex-direction: column
-      .menu-item
-        margin: 15px 0
-        &:hover
-          a
-            .menu-icon-wrapper
-              svg
-                path
-                  fill: $active
-          span
-            color: $active
-        a
-          text-decoration: none
-          color: $text
-          display: flex
-          justify-content: center
-          align-items: center
-          flex-direction: column
-          text-align: center
-          .menu-icon-wrapper
-            width: 32px
-            svg
-              path
-                fill: $text
-          span
-            font-family: $primary-font
-      .active-menu-item
-        a
-          .menu-icon-wrapper
-            svg
-              path
-                fill: $active
-          span
-            color: $active

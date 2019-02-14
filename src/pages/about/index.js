@@ -1,4 +1,6 @@
 import React, { Component, Fragment } from 'react';
+import TopTags from '../../components/topTags/index';
+import BottomTags from '../../components/bottomTags/index';
 import './style.sass';
 
 
@@ -9,10 +11,7 @@ class About extends Component {
   render() {
     return (
       <Fragment>
-        <div className="tag-text-top">
-          <span className="tag-content">&#60;html&#62;</span>
-          <span className="tag-content tag-content-with-spacing">&#60;body&#62;</span>
-        </div>
+        <TopTags />
         <div className="content">
           <div className="content-center content-without-padding">
             <h1 className="title-top">
@@ -23,21 +22,12 @@ class About extends Component {
             <p className="description-text-top">
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
               <span> I prefer to code, and focus on finding new intuitive ways to display information.<br />
-                     When designing, I enjoy creating simplistic sites and products that are pleasing<br />
-                     to the eye I love learning new frameworks and design styles, and I push myself to <br />
-                     stay up to date on all new web technologies.</span>
+                When designing, I enjoy creating simplistic sites and products that are pleasing<br />
+                to the eye I love learning new frameworks and design styles, and I push myself to <br />
+                stay up to date on all new web technologies.</span>
               <span className="tag-content tag-content-item">&#60;p&#62;</span>
             </p>
             <div className="contacts-bottom-block">
-              {/* <div className="contact-form">
-                <input className="contact-input-item" placeholder="User Name" type="text" />
-                <input className="contact-input-item" placeholder="Your email" type="email" />
-                <textarea className="contact-textarea-item" placeholder="Write your message here.." name="user-message"
-                  id="user-message" cols="30" rows="3"></textarea>
-                <button type="button" className="btn btn-primary orange-button-bottom button-link" data-toggle="button" aria-pressed="false"
-                  autoComplete="off">
-                  Send</button>
-              </div> */}
               <div className="contact-list-block">
                 <ul className="contact-list">
                   <li className="contact-list-item">
@@ -72,10 +62,7 @@ class About extends Component {
             </div>
           </div>
         </div>
-        <div className="tag-text-bottom">
-          <span className="tag-content tag-content-with-spacing">&#60;/body&#62;</span>
-          <span className="tag-content">&#60;/html&#62;</span>
-        </div>
+        <BottomTags />
       </Fragment>
     );
   }

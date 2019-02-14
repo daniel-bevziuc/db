@@ -33,7 +33,6 @@ class CssProgress extends Component {
     return (
       <Fragment>
         <Progress percent={82} status="active"
-
           theme={
             {
               active: {
@@ -43,8 +42,6 @@ class CssProgress extends Component {
               },
             }
           }
-
-
         />
       </Fragment>
     );
