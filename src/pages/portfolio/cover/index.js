@@ -10,8 +10,8 @@ export default function PortfolioCover(props) {
                   <img src={props.img} alt="daniel-portfolio-item" />
                   <figcaption>
                     <div>
-                      <h2 className='portfolio-text' >{props.btn}</h2>
-                      {/* <p>This App I buil on Kodiri Boot Camp</p> */}
+                      <h2 className='portfolio-text' >View Project</h2>
+                      <p>{props.description}</p>
                     </div>
                   </figcaption>
                 </figure>

@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import TopTags from '../../components/topTags/index';
 import BottomTags from '../../components/bottomTags/index';
+import PagesContent from '../../components/pagesContent/index';
 import './style.sass';
 
 
@@ -14,19 +15,13 @@ class About extends Component {
         <TopTags />
         <div className="content">
           <div className="content-center content-without-padding">
-            <h1 className="title-top">
-              <span className="tag-content tag-content-item">&#60;h1&#62;</span>
-              <span className="description-center">Contacts</span>
-              <span className="tag-content tag-content-item">&#60;/h1&#62;</span>
-            </h1>
-            <p className="description-text-top">
-              <span className="tag-content tag-content-item">&#60;p&#62;</span>
-              <span> I prefer to code, and focus on finding new intuitive ways to display information.<br />
-                When designing, I enjoy creating simplistic sites and products that are pleasing<br />
-                to the eye I love learning new frameworks and design styles, and I push myself to <br />
-                stay up to date on all new web technologies.</span>
-              <span className="tag-content tag-content-item">&#60;p&#62;</span>
-            </p>
+            <PagesContent
+              name='Contacts'
+              description='I prefer to code, and focus on finding new intuitive ways to display information
+              When designing, I enjoy creating simplistic sites and products that are pleasing
+              to the eye I love learning new frameworks and design styles, and I push myself to
+              stay up to date on all new web technologies.'
+            />
             <div className="contacts-bottom-block">
               <div className="contact-list-block">
                 <ul className="contact-list">

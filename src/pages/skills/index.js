@@ -6,6 +6,7 @@ import ReaProgress from './reaProg';
 import './style.sass';
 import TopTags from '../../components/topTags/index';
 import BottomTags from '../../components/bottomTags/index';
+import PagesContent from '../../components/pagesContent/index';
 
 
 
@@ -16,18 +17,11 @@ class Skills extends Component {
        <TopTags />
         <div className="content">
           <div className="content-center content-without-padding">
-            <h1 className="title-top">
-              <span className="tag-content tag-content-item">&#60;h1&#62;</span>
-              <span className="description-center">Skills and Experience</span>
-              <span className="tag-content tag-content-item">&#60;/h1&#62;</span>
-            </h1>
-            <p className="description-text-top">
-              <span className="tag-content tag-content-item">&#60;p&#62;</span>
-              <span>
-                The main area of my experience is front end development, <br />
-                HTML, CSS, JS (ES6), building small and medium web apps with React JS.</span>
-              <span className="tag-content tag-content-item">&#60;p&#62;</span>
-            </p>
+            <PagesContent
+              name='Skills and Experience'
+              description={`The main area of my experience is front end development,\
+              HTML, CSS, JS (ES6), building small and medium web apps with React JS.`}
+            />
             <div className="progress-block">
               <ul className="progress-list">
                 <li className="progress-item">
