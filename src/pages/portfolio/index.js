@@ -6,6 +6,7 @@ import womanImg from './img/tech-woman.png';
 import './style.sass';
 import TopTags from '../../components/topTags/index';
 import BottomTags from '../../components/bottomTags/index';
+import PortfolioCover from './cover/index';
 
 
 
@@ -30,60 +31,12 @@ class Portfolio extends Component {
             </p>
           </div>
           <div className="portfolio-grid">
-            <a href='https://kodiri.github.io/8-days-a-week/' target="_blank"  rel='noreferrer noopener'>
-              <div className="grid">
-                <figure className="effect-lily">
-                  <img src={womanImg} alt="daniel-portfolio-item" />
-                  <figcaption>
-                    <div>
-                      <h2 className='portfolio-text' >View Project</h2>
-                      {/* <p>This App I buil on Kodiri Boot Camp</p> */}
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </a>
-            <a href='https://daniel-bevziuc.github.io/carton-plant/' target='_blank' rel='noreferrer noopener'>
-              <div className="grid">
-                <figure className="effect-lily">
-                  <img src={cartonImg} alt="daniel-portfolio-item" />
-                  <figcaption>
-                    <div>
-                      <h2 className='portfolio-text'>View Project</h2>
-                      {/* <p>I build that App for a Cardboard <br />Plant</p> */}
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </a>
+            <PortfolioCover  link='https://kodiri.github.io/8-days-a-week' img={womanImg} btn='View Project'/>
+            <PortfolioCover  link='https://daniel-bevziuc.github.io/carton-plant/' img={cartonImg} btn='View Project'/>
           </div>
           <div className="portfolio-grid">
-            <a href='https://daniel-bevziuc.github.io/construction-part.github.io/' target='_blank' rel='noreferrer noopener'>
-              <div className="grid">
-                <figure className="effect-lily">
-                  <img src={partImg} alt="daniel-portfolio-item" />
-                  <figcaption>
-                    <div>
-                      <h2 className='portfolio-text'>View Project</h2>
-                      {/* <p>I build that App for a Building Materials Company</p> */}
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </a>
-            <a href='https://daniel-bevziuc.github.io/auto-agent-app/' target='_blank' rel='noreferrer noopener'>
-              <div className="grid">
-                <figure className="effect-lily">
-                  <img src={teslaImg} alt="daniel-portfolio-item" />
-                  <figcaption>
-                    <div>
-                      <h2 className='portfolio-text'>View Project</h2>
-                      {/* <p>I build that App for Auto Agent</p> */}
-                    </div>
-                  </figcaption>
-                </figure>
-              </div>
-            </a>
+            <PortfolioCover  link='https://daniel-bevziuc.github.io/construction-part.github.io/' img={partImg} btn='View Project'/>
+            <PortfolioCover  link='https://daniel-bevziuc.github.io/auto-agent-app/' img={teslaImg} btn='View Project'/>
           </div>
         </div>
        <BottomTags  />
