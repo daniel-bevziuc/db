@@ -7,7 +7,7 @@ class NavBtn extends Component {
   render() {
     return (
       <Fragment>
-        <div onClick={this.props.handleClick} profile={this.props.isActive}className="btn btn-primary nav-mobile-btn"
+        <div onClick={this.props.handleClick} className="btn btn-primary nav-mobile-btn"
           autoComplete="off">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
             className="svg-inline--fa fa-bars fa-w-14"

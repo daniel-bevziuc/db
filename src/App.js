@@ -25,7 +25,6 @@ class App extends Component {
     return (
       <div className='wrapper'>
         <NavBar
-          onClick={this.handleEvent}
           isActive={this.state.isActive}
         />
         <div className="content-right">
