@@ -3,7 +3,6 @@ import Routes from './routes';
 import Footer from './components/footer';
 import NavBar from './components/navBar/index';
 import NavBtn from './components/mobileBtn/index';
-
 import './App.sass';
 
 class App extends Component {
@@ -15,7 +14,7 @@ class App extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {
+   handleClick() {
     this.setState({
         isActive: !this.state.isActive
     });
